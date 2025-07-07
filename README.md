@@ -73,9 +73,25 @@ python main.py
 
 ## 📸 UI Preview
 
-> *(Add a screenshot here of your GUI, preferably `screenshot.png`)*  
-> Example:
-> ![Preview](screenshot.png)
+Here are some screenshots of the PyPackManager GUI in action:
+
+### 🏠 Home Page
+![Home](screens/Home.png)
+
+### 📦 My Packages
+![My Packages](screens/My-packages.png)
+
+### 🧠 My Python Environment
+![My Python](screens/My-Python.png)
+
+### 🔍 Search Results
+![Search Results](screens/Search-results.png)
+
+### 📁 Categories
+![Categories](screens/Categories.png)
+
+### 🧾 About Us
+![About Us](screens/About-us.png)
 
 ---
 
