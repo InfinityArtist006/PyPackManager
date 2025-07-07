@@ -1,24 +1,25 @@
-🐍 PyPackManager GUI
+# 🐍 PyPackManager GUI
 
-PyPackManager GUI is an ongoing Python Package Manager GUI project that aims to provide a beautiful, beginner-friendly desktop interface for discovering, managing, and installing Python packages. Designed with simplicity and clarity in mind, this tool helps developers break free from the command-line and explore the Python ecosystem visually.
-🚀 Features
+**PyPackManager GUI** is an **ongoing GUI project** that aims to provide a beautiful, beginner-friendly desktop interface for discovering, managing, and installing Python packages. Designed with simplicity and clarity in mind, this tool helps developers break free from the command-line and explore the Python ecosystem visually.
 
-    🔎 Search Functionality – Quickly find Python packages by name
+---
 
-    🧱 Package Cards – Display each package as a clean, styled card
+## 🚀 Features
 
-    📝 Detailed View – View detailed info like version history, links, and descriptions
+- 🔎 **Search Functionality** – Quickly find Python packages by name  
+- 🧱 **Package Cards** – Display each package as a clean, styled card  
+- 📝 **Detailed View** – View detailed info like version history, links, and descriptions  
+- 📂 **Sidebar Navigation** – Navigate with tabs like Home, My Packages, Categories, and About  
+- 🧵 **Threaded Search** – Keeps the UI smooth during long operations  
+- 📦 **Offline Mock Data** – Ready for real data integration in future releases  
 
-    📂 Sidebar Navigation – Navigate with tabs like Home, My Packages, Categories, and About
+> ⚠️ **Note**: This is a work in progress. Future updates will include real-time PyPI integration, theming support, and package installation/uninstallation features.
 
-    🧵 Threaded Search – Keeps the UI smooth during long operations
+---
 
-    📦 Offline Mock Data – Ready for real data integration in future releases
+## 📁 Project Structure
 
-    ⚠️ This is a work in progress. Future updates will integrate real-time PyPI data and enhanced interactivity.
-
-📁 Project Structure
-
+```
 PyPackManager GUI/
 ├── main.py                # Entry point
 ├── app_window.py          # Sets up main window and navigation
@@ -30,38 +31,70 @@ PyPackManager GUI/
 │   ├── detail_page.py     # View for detailed package info
 │   ├── home_page.py       # Home with recent and trending cards
 │   ├── search_page.py     # Displays search results
-│   ├── placeholder_page.py# Shown when no data available
-├── structure.txt          # Project outline (for dev reference)
+│   └── placeholder_page.py# Shown when no data available
+└── structure.txt          # Project outline (for dev reference)
+```
 
-📦 Requirements
+---
 
-    Python 3.10+
+## 📦 Requirements
 
-    GUI Framework: PyQt5 or PySide2
+- Python 3.10+
+- GUI Framework:
+  - [PyQt5](https://pypi.org/project/PyQt5/) **or**
+  - [PySide2](https://pypi.org/project/PySide2/)
 
-🔧 Install Dependencies
+### 🔧 Install Dependencies
 
+```bash
 pip install PyQt5
+```
 
-▶️ Running the App
+---
 
+## ▶️ Running the App
+
+```bash
 cd "PyPackManager GUI"
 python main.py
+```
 
-🛠️ Development Goals
+---
 
-    🔗 Integrate live data from the PyPI JSON API
+## 🛠️ Development Goals
 
-    📊 Add filtering by category, version, and popularity
+- 🔗 Integrate live data from the [PyPI JSON API](https://warehouse.pypa.io/api-reference/json.html)  
+- 📊 Add filtering by category, version, and popularity  
+- 🌙 Add light/dark theme toggle  
+- 📥 Support install/uninstall of packages with progress indicators  
+- 📚 Display more metadata like author, release date, etc.
 
-    🌙 Support light/dark themes
+---
 
-    📥 Add install/uninstall capabilities with progress feedback
+## 📸 UI Preview
 
-📸 UI Preview
+> *(Add a screenshot here of your GUI, preferably `screenshot.png`)*  
+> Example:
+> ![Preview](screenshot.png)
 
-    (Add a screenshot or mockup here if you have one)
+---
 
-📃 License
+## 📃 License
 
-This project is licensed under the MIT License. Use it freely in personal or commercial projects.
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute it for personal and commercial purposes.
+
+---
+
+## 🙌 Contributing
+
+Pull requests and feedback are welcome! If you'd like to contribute:
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your message'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request
+
+---
+
+### 👨‍💻 Made with 💚 by Infinity Artist
