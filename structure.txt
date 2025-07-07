@@ -1,0 +1,16 @@
+PyPackManager/
+│
+├── main.py                  # Entry point
+├── app_window.py            # Main application window
+├── package_card.py          # Package card UI component
+├── search_thread.py         # Thread for PyPI API operations
+│
+├── ui/                      # UI components directory
+│   ├── __init__.py          # Makes the directory a package
+│   ├── home_page.py         # Home page UI creation
+│   ├── search_page.py       # Search results page UI creation
+│   ├── detail_page.py       # Library detail page UI creation
+│   └── placeholder_page.py  # Reusable placeholder page
+│
+└── icons/                   # Icons for packages (created at runtime)
+    └── python_default.png   # Default Python icon
